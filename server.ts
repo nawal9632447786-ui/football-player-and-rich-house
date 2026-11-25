@@ -11,7 +11,7 @@ import db, {
   logActivity,
 } from './server/db.ts';
 
-const PORT = 3000;
+const PORT = Number(process.env.PORT) || 3000;
 const SESSION_SECRET = process.env.SESSION_SECRET || crypto.randomBytes(32).toString('hex');
 const revokedTokens = new Set<string>();
 
