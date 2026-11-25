@@ -1,0 +1,6 @@
+{
+  "name": "KUC – Kalanja United Club",
+  "description": "United We Play, United We Grow. Official club management platform for Kalanja United Club.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
